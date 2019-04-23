@@ -1,9 +1,9 @@
 import psycopg2
 import pandas as pd
 
-conn = psycopg2.connect(database="ultrtech",
+conn = psycopg2.connect(database="",
                             user="postgres",
-                            password="sphi12",
+                            password="",
                             host="192.168.1.200",
                             port="5432")
 print("Opened database successfully")
